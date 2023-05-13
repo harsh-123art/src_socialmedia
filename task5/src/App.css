@@ -1,0 +1,24 @@
+:root{
+  --main-blue: #0095f6;
+  --primary-dark: #262626;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.link{
+  color: #0C9AF6;
+  text-decoration: none;
+  font-weight: 500;
+}
+.link-non-dec{
+  color: var(--primary-dark);
+  text-decoration: none;
+  font-weight: 500;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
